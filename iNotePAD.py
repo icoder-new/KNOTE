@@ -26,7 +26,7 @@ def save_file(event = None):
 
 def extractText(event = None):
 	global FILENAME
-	FILENAME = fd.asksaveasfilename(filetypes=(("TXT files", "*.txt"),("All files", "*.*") ))
+	FILENAME = fd.asksaveasfilename(filetypes=(("TXT files", "*.txt"),("All files", "*.*"), ('HTML file', '*.html') ))
 	root.title('iNotePAD v0.1 - ' + FILENAME)
 	f = open(FILENAME,'w')
 	f.write(text.get('1.0',END))
