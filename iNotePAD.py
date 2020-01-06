@@ -4,7 +4,7 @@ from tkinter import filedialog as fd
 
 def help_():
 	mb.showinfo('iNotePAD',
-		'iNotePAD v0.2\nAuthor: Ilyosiddin Kalandar & Ehsonjon\nilyosiddin_kalandar@mail.ru & priler05@gmail.com')
+		'iNotePAD v0.2\nAuthor: Ilyosiddin Kalandar & Ehsonjon Gadoev\nilyosiddin_kalandar@mail.ru & priler05@gmail.com')
 def find_bug():
 	mb.showinfo('BUG REPORT','Hello,if you find bug please create issue on github\ngithub.com\ikalandar\iNotePAD')
 
