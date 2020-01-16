@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox as mb
 from tkinter import filedialog as fd
-
+#what i can do>
 def help_():
 	mb.showinfo('iNotePAD',
 		'iNotePAD v0.1\nAuthor: Ilyosiddin Kalandar\nilyosiddin_kalandar@mail.ru')
