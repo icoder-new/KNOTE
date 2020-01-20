@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox as mb
 from tkinter import filedialog as fd
-
+#what i can do>
 def help_():
 	mb.showinfo('iNotePAD',
 		'iNotePAD v0.2\nAuthor: Ilyosiddin Kalandar & Ehsonjon Gadoev\nilyosiddin_kalandar@mail.ru & priler05@gmail.com')
@@ -33,7 +33,7 @@ def extractText(event = None):
 def exit(event = None):
 	root.destroy()
 	
-FILENAME = ''
+FILENAME = ' '
 root = Tk()
 root.title('iNotePAD v0.2')
 text = Text(width=100,height=30)
