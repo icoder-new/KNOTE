@@ -5,9 +5,9 @@ A simple notepad writted with Python and his library "tkinter" <br/>
 
 # Coders
 ```
-* version 0.1 coded by Ilyosiddin Kalandar https://github.com/ikalandar/iNotePAD
+* version 0.1 coded by Ilyosiddin Kalandar https://github.com/ikalandar/KNOTE
 ```
 ```
-* version 0.2 coded by Ilyosiddin Kalandar https://github.com/ikalandar/iNotePAD 
-* Ehsonjon Gadoev https://github.com/icoder-new/iNotePAD
+* version 0.2 coded by Ilyosiddin Kalandar https://github.com/ikalandar/KNOTE 
+* Ehsonjon Gadoev https://github.com/icoder-new/KNOTE
 ```
