@@ -1,4 +1,4 @@
-# iNotePAD
+# KNOTE
 A simple notepad writted with Python and his library "tkinter" <br/>
 ```KNOTE``` use for write HTML's code <br/>
 ```KNOTE``` will be famous text viewer <br/>
