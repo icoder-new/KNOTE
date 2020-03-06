@@ -1,7 +1,7 @@
-# iNotePAD
+# KNOTE
 A simple notepad writted with Python and his library "tkinter"
-iNotePAD use for write HTML's code
-iNotePAD will be famous text viewer
+KNOTE use for write HTML's code
+KNOTE will be famous text viewer
 
 # Coders
 version 0.1 coded by Ilyosiddin Kalandar https://github.com/ikalandar/KNOTE
