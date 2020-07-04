@@ -71,7 +71,6 @@ file_menu.add_command(label='Save file',accelerator = 'Ctrl+S',command=save_file
 file_menu.add_command(label='Save as',accelerator = 'Ctrl+Shift+S',command=extractText)
 file_menu.add_command(label='Exit',accelerator = 'Alt+F4',command=exit)
 
-# >>> Edited theme menu for set theme
 color_theme = Menu(root,tearoff=False)
 global_menu.add_cascade(label='Color Theme',menu=color_theme)
 theme_choice = StringVar()
@@ -96,9 +95,6 @@ for i in color_dict :
 	color_theme.add_radiobutton(label = i, variable=theme_choice,compound=LEFT,command =set_theme)
 	count+=1
 
-# Coded by Ehsonjon Gadoev (icoder-new)
-
-### && Edited status bar && ###
 status_bar = ttk.Label(root, text ='Status Bar')
 status_bar.pack(side=BOTTOM)
 
@@ -114,7 +110,6 @@ def changed(event=None):
     text.edit_modified(False)
 text.bind('<<Modified>>',changed)
 
-### @@ Coded by Ehsonjon (icoder-new) @@ ###
 def undo():
     text.event_generate("<<Undo>>")
     return "break"
