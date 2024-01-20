@@ -76,7 +76,7 @@ global_menu.add_cascade(label='Color Theme',menu=color_theme)
 theme_choice = StringVar()
 
 color_dict = {
-	'Light Default' :('#000000','ffffff'),
+	'Light Default' :('#000000','#ffffff'),
 	'Light Plus' :('#474747','#e0e0e0'),
 	'Dark' : ('#c4c4c4', '#2d2d2d'),
 	'Red' : ('#2d2d2d','#ffe8e8'),
